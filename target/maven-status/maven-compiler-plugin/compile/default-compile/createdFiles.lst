@@ -1,0 +1,13 @@
+petstore\controllers\pet\PetController.class
+petstore\models\pet\Category.class
+petstore\models\pet\Tag$TagBuilder.class
+petstore\models\apiResonse\ApiResponse$ApiResponseBuilder.class
+petstore\data\IncorrectData.class
+petstore\steps\PetSteps.class
+petstore\utils\TestDataGenerator.class
+petstore\models\pet\Status.class
+petstore\models\pet\Tag.class
+petstore\models\pet\Pet.class
+petstore\models\apiResonse\ApiResponse.class
+petstore\models\pet\Pet$PetBuilder.class
+petstore\models\pet\Category$CategoryBuilder.class

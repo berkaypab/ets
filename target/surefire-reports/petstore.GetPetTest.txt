@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: petstore.GetPetTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.554 s <<< FAILURE! - in petstore.GetPetTest
+petstore.GetPetTest.getNotFoundPetTest  Time elapsed: 0.815 s  <<< ERROR!
+io.restassured.internal.http.HttpResponseException: Not Found
+	at petstore.GetPetTest.getNotFoundPetTest(GetPetTest.java:31)
+

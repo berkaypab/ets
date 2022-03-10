@@ -1,0 +1,5 @@
+petstore\DeletePetTest.class
+petstore\GetPetTest.class
+petstore\UpdatePetTest.class
+petstore\BaseTest.class
+petstore\AddPetTest.class

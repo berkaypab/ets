@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: petstore.DeletePetTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 3.337 s <<< FAILURE! - in petstore.DeletePetTest
+petstore.DeletePetTest.deletePet  Time elapsed: 2.495 s  <<< ERROR!
+io.restassured.internal.http.HttpResponseException: Not Found
+	at petstore.DeletePetTest.deletePet(DeletePetTest.java:27)
+
+petstore.DeletePetTest.deleteNotFoundPetTest  Time elapsed: 0.819 s  <<< ERROR!
+io.restassured.internal.http.HttpResponseException: Not Found
+	at petstore.DeletePetTest.deleteNotFoundPetTest(DeletePetTest.java:35)
+

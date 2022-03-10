@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: petstore.UpdatePetTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 5.609 s <<< FAILURE! - in petstore.UpdatePetTest
+petstore.UpdatePetTest.putIncorrectJson  Time elapsed: 0.785 s  <<< ERROR!
+io.restassured.internal.http.HttpResponseException: Bad Request
+	at petstore.UpdatePetTest.putIncorrectJson(UpdatePetTest.java:45)
+
+petstore.UpdatePetTest.updateFullDataPet  Time elapsed: 3.171 s  <<< ERROR!
+io.restassured.internal.http.HttpResponseException: Not Found
+	at petstore.UpdatePetTest.updateFullDataPet(UpdatePetTest.java:31)
+
+petstore.UpdatePetTest.putNewPet  Time elapsed: 1.638 s  <<< ERROR!
+io.restassured.internal.http.HttpResponseException: Not Found
+	at petstore.UpdatePetTest.putNewPet(UpdatePetTest.java:38)
+
